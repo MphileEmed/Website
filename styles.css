@@ -1,0 +1,165 @@
+body{
+    color: white;
+    background-color: #1a4797;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 100px;
+    
+}
+.blue{
+    margin: 100px;
+   
+}
+
+.top{
+    flex: 1;
+    position: absolute;
+}
+
+.bottom{
+    flex: 1;
+    background:#101325;
+    margin-left: 500px;
+    position: relative; 
+    top: 30px;
+    padding: 50px 0;
+}
+
+.bottom p{
+    padding: 0 180px;
+}
+
+h1{
+    text-align: center;
+}
+
+.welcome img{
+    height: 250px;
+    width: 700px;
+}
+
+.us, .features{
+    display: flex;
+    flex-direction: row;
+    padding: 0 200px;
+}
+
+.left, .right, .text{
+    flex: 1;
+    text-align: center;
+}
+
+
+.us i, .number{
+    font-size: 50px;
+    color: #ea3692;
+    display: block;
+    margin: 0 auto;
+}
+
+.us p{
+    width: 90%;
+}
+
+.features{
+    flex-direction: column;
+    background-color: #101325;
+    margin-bottom: 100px;
+    margin: 0 !important;
+}
+
+.text{
+    width: 35%;
+    margin: 0 400px;
+    text-align: start;
+    margin-left: 545px;
+    animation: slideUp 1s ease forwards;
+}
+
+.number{
+    font-size: 100px;
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    60% {
+        transform: translateY(-10%);
+    }
+    80% {
+        transform: translateY(5%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.team {
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* .team h1, .team p {
+    margin-bottom: 20px;
+} */
+
+.founders {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+
+.founders .ntombi, .founders .mphile {
+    width: 48%; 
+    text-align: center;
+}
+
+.founders img {
+    width: 55%;
+}
+
+/* .founders {
+    margin-top: 20px;
+} */
+
+.f{
+    width: 40%; 
+    padding-left: 330px;
+   
+}
+
+.mphile img{
+    height: 388px;
+}
+
+.about{
+    /* width: 50%; */
+    padding-left: 20px;
+    text-align: left;
+}
+
+.bio h4{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.bio{
+    background-color: #6ca7da;
+    margin: 0 119px;
+    margin-top: -20px;
+}
+
+.socials{
+    color: black;
+    font-size: 10px;
+    text-align: start;
+    padding-left: 20px;
+}
+
