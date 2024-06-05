@@ -3,6 +3,7 @@ body{
     background-color: #1a4797;
     margin: 0;
     font-family: 'Poppins', sans-serif; 
+    overflow-x: hidden;
 }
 
 .welcome{
@@ -302,4 +303,145 @@ h4, h1{
 hr{
     width: 2%;
     margin-top: -13px;
+}
+
+@media (max-width: 575.98px) {
+    .blue{
+        margin: 0;
+        /* width: 955px; */
+    }
+
+    .welcome img{
+        width: 100%;
+    }
+
+    .bottom p{
+        /* width: 500px; */
+        padding: 0;
+    }
+
+    .bottom{
+        margin-left: 0;
+        top: 200px;
+        padding: 0 50px;
+    }
+
+    .header{
+        margin-left: 0;
+    }
+
+    .us{
+        padding: 0;
+        flex-direction: column;
+        /* margin: 0 200px; */
+    }
+
+    .us p{
+        width: auto;
+        padding: 0 50px;
+    }
+
+    .features{
+        width: 100%;
+        padding: 0;
+    }
+
+    .features h1{
+        padding: 0 50px;
+    }
+
+    hr{
+        display: none;
+    }
+
+    .text{
+        width: 80%;
+        margin: 0;
+        padding: 0 50px;
+        text-align: center;
+    }
+
+    .two .text{
+        margin: 0;
+    }
+
+    .two{
+        margin: 0;
+    }
+
+    .two .number, .number {
+        margin: 0;
+        text-align: center;
+    }
+
+    .know{
+        padding: 0 50px;
+        padding-top: 100px;
+    }
+
+    .team{
+        margin-top: 50px;
+    }
+
+    .f{
+        width: auto;
+        padding: 0 50px;
+    }
+
+    .founders{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .founders .ntombi, .founders .mphile{
+        width: auto;
+    }
+
+    .bio{
+        margin: 0 40px;
+        margin-top: -80px;
+    }
+
+    .founders .mphile{
+        margin-top: 50px;
+    }
+
+    .founders img{
+        width: 80%;
+    }
+
+    .touch{
+        margin: 0;
+    }
+
+    .contacts{
+        flex-direction: column;
+    }
+
+    .form{
+        margin-right: 0;
+        padding: 0 50px;
+    }
+
+    .name{
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    input{
+        width: 98%;
+    }
+
+    .name input{
+        margin: 0;
+    }
+
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer h4{
+        padding: 0;
+    }
 }
