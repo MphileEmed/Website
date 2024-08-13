@@ -14,6 +14,11 @@ body{
     
 }
 
+.img{
+    width: 100%;
+    height: 53rem;
+}
+
 .header{
     margin: 0;
     margin-left: 180px;
@@ -22,7 +27,7 @@ body{
 }
 
 .blue{
-    margin: 100px;
+    /* margin: 0 100px; */
 }
 
 .top{
@@ -33,15 +38,15 @@ body{
 .bottom{
     flex: 1;
     background:#101325;
-    margin-left: 500px;
+    margin-left: 50%;
     position: relative; 
     top: 30px;
     padding: 15px 0;
-    width: auto;
+    width: 50%;
 }
 
 .bottom p{
-    padding: 0 180px;
+    padding: 0 20%;
 }
 
 .know{
@@ -55,7 +60,7 @@ body{
 
 .welcome img{
     height: 250px;
-    width: 700px;
+    width: 49rem;
 }
 
 .us, .features, .contacts{
@@ -132,7 +137,7 @@ body{
 }
 
 .founders .ntombi, .founders .mphile {
-    width: 48%; 
+    width: auto; 
     text-align: center;
 }
 
@@ -150,9 +155,9 @@ body{
    
 }
 
-.mphile img{
+/* .mphile img{
     height: 388px;
-}
+} */
 
 .about{
     /* width: 50%; */
@@ -167,7 +172,7 @@ body{
 
 .bio{
     background-color: #6ca7da;
-    margin: 0 22%;
+    margin: 0 22.5%;
     margin-top: -80px;
     position: relative;
     z-index: 1;
@@ -216,7 +221,7 @@ body{
 }
 
 .name input{
-    margin: 0 10px;
+    margin: auto;
 }
 
 textarea{
@@ -336,6 +341,7 @@ hr{
         margin-left: 0;
         top: 200px;
         padding: 0 50px;
+        width: auto;
     }
 
     .header{
